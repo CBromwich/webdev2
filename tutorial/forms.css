@@ -55,3 +55,59 @@ input {
 input#state {
   width: 50px;
 }
+
+/* Selection Styles */
+
+select {
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 0px;
+}
+
+/* Option button styles */
+
+fieldset.optionGroup {
+  border-width: 0px;
+}
+
+fieldset.optionGroup label {
+  display: inline;
+  float: none;
+  margin: 0px 3px 0px 0px;
+  width: 30px;
+}
+
+fieldset.optionGroup input {
+  display: inline;
+  float: none;
+  margin: 0px 20px 0px 0px;
+  width: 20px;
+}
+
+/* Text area styles */
+
+textarea {
+  display: block;
+  font-size: 0.9em;
+  float: left;
+  height: 150px;
+  margin: 10px 0px;
+  width: 50%;
+}
+
+/* Check box styles */
+
+#newsletter {
+  color: rgb(233, 69, 0);
+  float: none;
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+}
+
+#newsletter input {
+  display: inline;
+  float: none;
+  width: 20px;
+}
