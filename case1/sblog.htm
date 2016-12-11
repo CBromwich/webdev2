@@ -21,6 +21,7 @@
       <script src="modernizr-1.5.js"></script>
       <script src="formsubmit.js"></script>
       <link href="blog.css" rel="stylesheet" type="text/css" />
+      <link href="comments.css" rel="stylesheet" type="text/css" />
 
    </head>
 
@@ -92,6 +93,28 @@
          </article>
 
          <h2>Post Your Comments</h2>
+
+         <form action=" www.sblogger/cgi-bin/subcomments" method="post">
+           <fieldset name="commentFS" id="commentFS">
+             <label>
+               Username
+               <input name="username" required="required" placeholder="supply your username" />
+             </label>
+             <label>
+               E-Mail
+               <input name="email" required="required" placeholder="supply a valid e-mail address" />
+             </label>
+             <label>
+               Password
+               <input name="password" required="required" placeholder="You must provide a password" type="password" />
+             </label>
+             <label>
+               Comment <br />(500 character limit)
+               <textarea name="commentBox" maxlength="500"></textarea>
+             </label>
+             <input type="submit" value="Submit Comment" />
+           </fieldset>
+         </form>
 
 
 
